@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>Contactanoso Local Sushi</title>
 </head>
 <body>
@@ -35,7 +39,7 @@
     <!-- empieza el main -->
     <main class="maincontacto">
     <!-- portada contacto -->
-        <div class="portadacontacto">
+        <div class="portadacontacto" data-aos="flip-up">
         </div>
         <!-- formulario -->
         <div class="formulario">
@@ -45,7 +49,7 @@
                         <p>En Full Sushi estamos muy contentos de poder ayudarte.</p>
                         <p>Dejanos tu comentario y en breve nos estaremos comunicando con vos.</p>
                     </div>
-                    <form action="#" method="post">
+                    <form action="#" method="post" data-aos="zoom-out">
                         <div class="nombreapellido">
                             <div style="max-width: 100%;"> 
                                 <input class="inputs" type="text" placeholder="Nombre">
@@ -104,6 +108,18 @@
         </div>
         </div>
     </footer>
-
+    <!-- scripts de wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- scripts de aos para animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>

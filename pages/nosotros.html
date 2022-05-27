@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>Nosotros</title>
 </head>
 <body>
@@ -41,11 +45,11 @@
             </div>    
         </div>
     <!-- foto local -->
-        <div class="fotopagnosotros">
+        <div class="fotopagnosotros" data-aos="flip-up">
             <img src="../media/fotos/local.jpg" alt="fotolocal">
         </div>
     <!-- texto nosotros -->        
-        <div class="textopagnosotros">
+        <div class="textopagnosotros" data-aos="flip-up">
             <h2>Full Sushi</h2>
             <p>  
                 Full Sushi es un local de sushi que nacio en el 2022 en el centro de Mendoza. Nuestro objetivo es vender sushi de calidad, crecer, poder abrir varias sucursales a lo largo de la provincia y a lo largo del país.
@@ -89,6 +93,18 @@
         </div>
         </div>
     </footer>
-    
+    <!-- scripts de wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- scripts de aos para animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>

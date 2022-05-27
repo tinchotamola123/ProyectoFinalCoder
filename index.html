@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Macondo&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>Local Sushi</title>
 </head>
 <body>
@@ -41,17 +45,17 @@
     <!-- empieza el main -->
     <main>
     <!-- Portada con nombre -->
-    <div class="portada">
+    <div class="portada" data-aos="zoom-in">
         <div class="index">
-            <h2>FULL SUSHI</h2>
-            <a href="./pages/menu.html">Ver Menú</a>
+            <h2 data-aos="zoom-in">FULL SUSHI</h2>
+            <a href="./pages/menu.html" class="wow animate__animated animate__swing">Ver Menú</a>
         </div>
     </div>
     <!-- Seccion video  -->
-    <div class="video1">
+    <div class="video1" data-aos="fade-right">
             <video controls loop autoplay  src="./media/videos/videosushi2.mp4"></video>
     </div>
-    <div class="video2">
+    <div class="video2" data-aos="fade-left">
             <video controls loop autoplay src="./media/videos/videosushi.mp4"></video>
     </div>
     <!-- seccion nosotros -->
@@ -81,7 +85,7 @@
             </div>
     </div>
     <!-- seccion productos a confir -->
-    <div class="piezas">
+    <div class="piezas" data-aos="flip-up">
     <section class="productos">
             <a href="/pages/productos.html">Nuestras Piezas</a>
     </section>
@@ -126,5 +130,18 @@
         </div>
     </footer>
     </div>
+    <!-- scripts de wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- scripts de aos para animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>

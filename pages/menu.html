@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>Menu</title>
 </head>
 <body>
@@ -44,21 +48,21 @@
             </div>
         </div>
     <!-- carta1 -->
-        <div class="carta1">
+        <div class="carta1" data-aos="zoom-out-right">
             <div>
                 <h4>Nuestras Piezas</h4>  
                 <img src="../media/fotos/carta1.jpg" alt="carta1">
             </div>
         </div>
     <!-- carta2 -->
-        <div class="carta2">
+        <div class="carta2" data-aos="zoom-out-left">
             <div>
                 <h4>Tablas Combinadas</h4>    
                 <img src="../media/fotos/carta2.jpg" alt="carta1">
             </div>
         </div>
     <!-- carta3 -->
-        <div class="carta3">
+        <div class="carta3" data-aos="zoom-out-up">
             <div>
                 <h4>Bebidas</h4>    
                 <img src="../media/fotos/carta3.jpg" alt="carta1">
@@ -91,6 +95,18 @@
         </div>
         </div>
     </footer>
-    
+    <!-- scripts de wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- scripts de aos para animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>

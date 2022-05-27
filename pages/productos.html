@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>Productos</title>
 </head>
 <body>
@@ -45,7 +49,7 @@
         </div>
 
     <!-- descproducto 1 -->
-        <div class="descproducto1">
+        <div class="descproducto1" data-aos="fade-right">
             <h2>
                 Clasicos
             </h2>
@@ -55,17 +59,17 @@
         </div>
 
     <!-- fotoproducto 1 -->    
-        <div class="fotoproducto1">
+        <div class="fotoproducto1" data-aos="fade-left">
             <img src="../media/fotos/piezas/clasico.jpg" alt="piezaclasica">
         </div>
 
     <!-- fotoproducto 2 -->    
-        <div class="fotoproducto2">
+        <div class="fotoproducto2" data-aos="fade-right">
             <img src="../media/fotos/piezas/cocidos.jpg" alt="piezacocida">
         </div>
 
     <!-- descproducto 2 -->
-        <div class="descproducto2">
+        <div class="descproducto2" data-aos="fade-left">
             <h2>
                 Cocidos
             </h2>
@@ -75,7 +79,7 @@
         </div>
 
     <!-- descproducto 3 -->
-        <div class="descproducto3">
+        <div class="descproducto3" data-aos="fade-right">
             <h2>
                 Hot rolls
             </h2>
@@ -84,16 +88,16 @@
             </p>
         </div>
     <!-- fotoproducto 3 -->    
-        <div class="fotoproducto3">
+        <div class="fotoproducto3" data-aos="fade-left">
             <img src="../media/fotos/piezas/hotroll.jpg" alt="piezahotroll">
         </div>
 
     <!-- fotoproducto 4 -->    
-        <div class="fotoproducto4">
+        <div class="fotoproducto4" data-aos="fade-right">
             <img src="../media/fotos/piezas/sinarroz.jpg" alt="piezasinarroz">
         </div>
     <!-- descproducto 4 -->
-        <div class="descproducto4">
+        <div class="descproducto4" data-aos="fade-left">
             <h2>
                 Sin arroz
             </h2>
@@ -103,7 +107,7 @@
         </div>
 
     <!-- descproducto 5 -->
-        <div class="descproducto5">
+        <div class="descproducto5" data-aos="fade-right">
             <h2>
                 Niguiri
             </h2>
@@ -112,15 +116,15 @@
             </p>
         </div>
     <!-- fotoproducto 5 -->    
-        <div class="fotoproducto5">
+        <div class="fotoproducto5" data-aos="fade-left">
             <img src="../media/fotos/piezas/niguiri.jpg" alt="piezaniguiri">
         </div>
     <!-- fotoproducto 6 -->    
-        <div class="fotoproducto6">
+        <div class="fotoproducto6" data-aos="fade-right">
             <img src="../media/fotos/piezas/geisha.png" alt="piezageisha">
         </div>
     <!-- descproducto 6 -->
-        <div class="descproducto6">
+        <div class="descproducto6" data-aos="fade-left">
             <h2>
                 Geisha
             </h2>
@@ -154,6 +158,18 @@
         </div>
         </div>
     </footer>
-    
+    <!-- scripts de wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- scripts de aos para animaciones aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>
