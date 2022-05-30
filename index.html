@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="icon" href="./media/fotos/favicon/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Rock+Salt&family=VT323&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,117 +21,137 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Macondo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Macondo&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
 
     <title>Local Sushi</title>
 </head>
+
 <body>
     <!-- header -->
     <header>
-        <nav class="header">
-            <div class="headerlogo">
-                <a href="./index.html"><img class="logo" src="./media/fotos/logo.png" alt="logo"></a>
-            </div>
-            <div class="listamenu">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/menu.html">Menu</a></li>
-                    <li><a href="./pages/productos.html">Productos</a></li>
-                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./media/fotos/logo.png"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light"></span>
+                </button>
+                <div class="collapse navbar-collapse listamenu" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <!-- empieza el main -->
     <main>
-    <!-- Portada con nombre -->
-    <div class="portada" data-aos="zoom-in">
-        <div class="index">
-            <h2 data-aos="zoom-in">FULL SUSHI</h2>
-            <a href="./pages/menu.html" class="wow animate__animated animate__swing">Ver Menú</a>
+        <!-- Portada con nombre -->
+        <div class="portada" data-aos="zoom-in">
+            <div class="index">
+                <h2 data-aos="zoom-in">FULL SUSHI</h2>
+                <a href="./pages/menu.html" class="wow animate__animated animate__swing">Ver Menú</a>
+            </div>
         </div>
-    </div>
-    <!-- Seccion video  -->
-    <div class="video1" data-aos="fade-right">
-            <video controls loop autoplay  src="./media/videos/videosushi2.mp4"></video>
-    </div>
-    <div class="video2" data-aos="fade-left">
+        <!-- Seccion video  -->
+        <div class="video1" data-aos="fade-right">
+            <video controls loop autoplay src="./media/videos/videosushi2.mp4"></video>
+        </div>
+        <div class="video2" data-aos="fade-left">
             <video controls loop autoplay src="./media/videos/videosushi.mp4"></video>
-    </div>
-    <!-- seccion nosotros -->
-    <div class="nosotros1">
+        </div>
+        <!-- seccion nosotros -->
+        <div class="nosotros1">
             <div class="fotonosotros">
                 <img src="./media/fotos/local2.jpg" alt="local">
             </div>
-    </div>
-    <div class="nosotros2">
+        </div>
+        <div class="nosotros2">
             <div class="textonosotros">
                 <h2>
                     Nuestro local
                 </h2>
-                <p>  
-                Full Sushi es un local de sushi que nacio en el 2022 en el centro de Mendoza. Nuestro objetivo es vender sushi de calidad, crecer, poder abrir varias sucursales a lo largo de la provincia y a lo largo del país.
-                <br>
-                🍣
-                <br>
-                Ofrecemos una carta con piezas exclusivas de nuestro sushiman.
-                <br>
-                🍙
-                <br>
-                Esperamos posicionarnos como una marca reconocida en el rubro y con una amplia carta de productos de excelente calidad.
-                <br>
-                🍣
-            </p>
+                <p>
+                    Full Sushi es un local de sushi que nacio en el 2022 en el centro de Mendoza. Nuestro objetivo es
+                    vender sushi de calidad, crecer, poder abrir varias sucursales a lo largo de la provincia y a lo
+                    largo del país.
+                    <br>
+                    🍣
+                    <br>
+                    Ofrecemos una carta con piezas exclusivas de nuestro sushiman.
+                    <br>
+                    🍙
+                    <br>
+                    Esperamos posicionarnos como una marca reconocida en el rubro y con una amplia carta de productos de
+                    excelente calidad.
+                    <br>
+                    🍣
+                </p>
             </div>
-    </div>
-    <!-- seccion productos a confir -->
-    <div class="piezas" data-aos="flip-up">
-    <section class="productos">
-            <a href="/pages/productos.html">Nuestras Piezas</a>
-    </section>
-    </div>
-    <!-- seccion galeria de fotos -->
-    <div class="foto1">
+        </div>
+        <!-- seccion productos a confir -->
+        <div class="piezas" data-aos="flip-up">
+            <section class="productos">
+                <a href="/pages/productos.html">Nuestras Piezas</a>
+            </section>
+        </div>
+        <!-- seccion galeria de fotos -->
+        <div class="foto1">
             <img class="foto1" src="./media/fotos/galeria1.jpg" alt="Sushi1">
-    </div>
-    <div class="foto2">
+        </div>
+        <div class="foto2">
             <img class="foto2" src="./media/fotos/galeria2.jpg" alt="Sushi2">
-    </div>
-    <div class="foto3">
+        </div>
+        <div class="foto3">
             <img class="foto3" src="./media/fotos/galeria3.jpg" alt="Sushi3">
-    </div>
-    <div class="foto4">
-            <img class="foto4" src="./media/fotos/galeria4.jpg" alt="Sushi4">  
-    </div>
+        </div>
+        <div class="foto4">
+            <img class="foto4" src="./media/fotos/galeria4.jpg" alt="Sushi4">
+        </div>
     </main>
     <!-- footer -->
     <footer>
         <div class="footer">
-        <div class="footerLogo">
-        <a href="./index.html"><img class="logo" src="./media/fotos/logo.png" alt="logo"></a>
-        </div>
-        <div class="disenofooter">
-        <p>Seguinos en nuestras redes</p>
-        <div class="redes"> 
-        <a href="https://www.instagram.com/" target="_blank">
-            <img class="icoredes" src="./media/fotos/favicon/instagram.ico" alt="logoig" title="Instagram">
-        </a>
-        <a href="https://www.twitter.com/" target="_blank">
-            <img class="icoredes" src="./media/fotos/favicon/twitter.ico" alt="logotw" title="Twitter">
-        </a>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img class="icoredes" src="./media/fotos/favicon/facebook.ico" alt="logofb" title="Facebook">
-        </a>
-        <a href="https://web.whatsapp.com" target="_blank">
-            <img class="icoredes" src="./media/fotos/favicon/whatsapp.png" alt="logofb" title="whatwasp">
-        </a>
-        </div>
-        </div>
+            <div class="footerLogo">
+                <a href="./index.html"><img class="logo" src="./media/fotos/logo.png" alt="logo"></a>
+            </div>
+            <div class="disenofooter">
+                <p>Seguinos en nuestras redes</p>
+                <div class="redes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="icoredes" src="./media/fotos/favicon/instagram.ico" alt="logoig" title="Instagram">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img class="icoredes" src="./media/fotos/favicon/twitter.ico" alt="logotw" title="Twitter">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="icoredes" src="./media/fotos/favicon/facebook.ico" alt="logofb" title="Facebook">
+                    </a>
+                    <a href="https://web.whatsapp.com" target="_blank">
+                        <img class="icoredes" src="./media/fotos/favicon/whatsapp.png" alt="logofb" title="whatwasp">
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     </div>
@@ -143,5 +168,10 @@
             duration: 1000
         });
     </script>
+    <!-- scrip bostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
