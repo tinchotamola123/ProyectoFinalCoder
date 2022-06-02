@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="icon" href="../media/fotos/favicon/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Rock+Salt&family=VT323&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Rock+Salt&family=VT323&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
 
     <title>Menu</title>
 </head>
+
 <body>
     <!-- header -->
     <header>
@@ -57,58 +62,75 @@
     </header>
     <!-- empieza el main -->
     <main class="mainmenu">
-    <!-- portada de menu -->   
+        <!-- portada de menu -->
         <div class="portadamenu">
             <div class="indexmenu">
                 <h2>Nuestras Cartas</h2>
             </div>
         </div>
-    <!-- carta1 -->
+        <!-- carta1 -->
         <div class="carta1" data-aos="zoom-out-right">
             <div>
-                <h4>Nuestras Piezas</h4>  
+                <h4>Nuestras Piezas</h4>
                 <img src="../media/fotos/carta1.jpg" alt="carta1">
             </div>
         </div>
-    <!-- carta2 -->
+        <!-- carta2 -->
         <div class="carta2" data-aos="zoom-out-left">
             <div>
-                <h4>Tablas Combinadas</h4>    
+                <h4>Tablas Combinadas</h4>
                 <img src="../media/fotos/carta2.jpg" alt="carta1">
             </div>
         </div>
-    <!-- carta3 -->
+        <!-- carta3 -->
         <div class="carta3" data-aos="zoom-out-up">
             <div>
-                <h4>Bebidas</h4>    
+                <h4>Bebidas</h4>
                 <img src="../media/fotos/carta3.jpg" alt="carta1">
             </div>
+            <!-- Buton de modal -->
+            <button type="button" class="btn mx-auto mt-5 mb-5 botoncartas" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Descargar Cartas
+            </button>
         </div>
-
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Gracias por descargar nuestras cartas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary d-block mx-auto" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- footer -->
     <footer>
         <div class="footer">
-        <div class="footerLogo">
-        <a href="./index.html"><img class="logo" src="../media/fotos/logo.png" alt="logo"></a>
-        </div>
-        <div class="disenofooter">
-        <p>Seguinos en nuestras redes</p>
-        <div class="redes"> 
-        <a href="https://www.instagram.com/" target="_blank">
-            <img class="icoredes" src="../media/fotos/favicon/instagram.ico" alt="logoig" title="Instagram">
-        </a>
-        <a href="https://www.twitter.com/" target="_blank">
-            <img class="icoredes" src="../media/fotos/favicon/twitter.ico" alt="logotw" title="Twitter">
-        </a>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img class="icoredes" src="../media/fotos/favicon/facebook.ico" alt="logofb" title="Facebook">
-        </a>
-        <a href="https://web.whatsapp.com" target="_blank">
-            <img class="icoredes" src="../media/fotos/favicon/whatsapp.png" alt="logofb" title="whatwasp">
-        </a>
-        </div>
-        </div>
+            <div class="footerLogo">
+                <a href="./index.html"><img class="logo" src="../media/fotos/logo.png" alt="logo"></a>
+            </div>
+            <div class="disenofooter">
+                <p>Seguinos en nuestras redes</p>
+                <div class="redes">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="icoredes" src="../media/fotos/favicon/instagram.ico" alt="logoig" title="Instagram">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img class="icoredes" src="../media/fotos/favicon/twitter.ico" alt="logotw" title="Twitter">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="icoredes" src="../media/fotos/favicon/facebook.ico" alt="logofb" title="Facebook">
+                    </a>
+                    <a href="https://web.whatsapp.com" target="_blank">
+                        <img class="icoredes" src="../media/fotos/favicon/whatsapp.png" alt="logofb" title="whatwasp">
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- scripts de wow -->
@@ -125,6 +147,9 @@
         });
     </script>
     <!-- scrip boostrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
