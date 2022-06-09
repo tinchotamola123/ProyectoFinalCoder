@@ -1,0 +1,40 @@
+.maincontacto{
+    display: flex;
+    flex-direction: column;
+    .portadacontacto{
+        background-image: url(../media/fotos/fondocontacto.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 35vh;
+    }
+    .nosotros{
+        h1{
+            font-family: 'Macondo', cursive;
+            color: rgba(255, 255, 255, 0.836);
+            font-size: 3rem;
+        }
+        p{
+            font-family: 'Macondo', cursive;
+            color: rgba(255, 255, 255, 0.836);
+            font-size: 1.5rem;
+        }
+    }
+    .label{
+        font-family: 'Macondo', cursive;
+        font-size: 1.4rem;
+    }
+    .inputs{
+        text-align: center;
+        margin: 10px;
+        width: 50%;
+        height: auto;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+    }
+    .inputsbtn{
+        width: 25%;
+    }
+}

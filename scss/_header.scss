@@ -1,0 +1,29 @@
+header{
+    height: auto;
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+    .listamenu{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        ul{
+            list-style: none;
+            margin: 0px;
+            display: flex;
+            li{
+                margin: 5px;
+                a{
+                    color: rgba(204, 200, 200, 0.473);
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-family: 'Rock Salt', cursive;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }   
+}

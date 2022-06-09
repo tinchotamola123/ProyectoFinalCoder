@@ -1,0 +1,861 @@
+header {
+  height: auto; }
+  header .logo {
+    width: 150px;
+    height: 150px; }
+  header .listamenu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; }
+    header .listamenu ul {
+      list-style: none;
+      margin: 0px;
+      display: flex; }
+      header .listamenu ul li {
+        margin: 5px; }
+        header .listamenu ul li a {
+          color: rgba(204, 200, 200, 0.473);
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-family: 'Rock Salt', cursive; }
+          header .listamenu ul li a:hover {
+            color: white; }
+
+main {
+  background-image: url(../media/fotos/fondoo.webp);
+  background-repeat: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "portada portada portada portada" "carusel carusel carusel carusel" "video1 video1 video2 video2" "nosotros1 nosotros1 nosotros2 nosotros2" "piezas piezas piezas piezas" "foto1 foto2 foto3 foto4";
+  overflow: hidden; }
+
+.portada {
+  grid-area: portada; }
+  .portada .index {
+    background-image: url(../media/fotos/fondoindex.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh; }
+    .portada .index h2 {
+      font-family: 'Macondo', cursive;
+      font-size: 80px;
+      color: rgba(255, 255, 255, 0.836);
+      margin-top: 60px; }
+    .portada .index a {
+      font-family: 'Macondo', cursive;
+      font-size: 70px;
+      color: rgba(255, 255, 255, 0.836);
+      margin-bottom: 40px;
+      text-decoration: none; }
+      .portada .index a:hover {
+        transform: scale(1.2, 1.2);
+        color: #8a8a88; }
+
+.carusel {
+  grid-area: carusel; }
+
+.video1 {
+  grid-area: video1; }
+  .video1 video {
+    width: 100%;
+    height: 100%; }
+
+.video2 {
+  grid-area: video2; }
+  .video2 video {
+    width: 100%;
+    height: 100%; }
+
+.nosotros1 {
+  grid-area: nosotros1; }
+  .nosotros1 .fotonosotros {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .nosotros1 .fotonosotros img:hover {
+      transform: scale(1.2, 1.2); }
+
+.nosotros2 {
+  grid-area: nosotros2; }
+  .nosotros2 .textonosotros {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px; }
+    .nosotros2 .textonosotros h2 {
+      font-size: 50px;
+      text-align: center; }
+    .nosotros2 .textonosotros p {
+      font-size: 25px;
+      padding-top: 25px;
+      text-align: center; }
+
+.piezas {
+  grid-area: piezas;
+  background-image: url(../media/fotos/piezas1440.jpg);
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+  .piezas .productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .piezas .productos a {
+      font-size: 70px;
+      font-family: 'Macondo', cursive;
+      color: rgba(255, 255, 255, 0.836);
+      text-decoration: none;
+      margin-top: 45px; }
+      .piezas .productos a:hover {
+        transform: scale(1.1, 1.1);
+        color: #8a8a88; }
+
+.foto1 {
+  grid-area: foto1;
+  height: 550px;
+  display: inline-block; }
+  .foto1 img {
+    width: 100%;
+    height: 554px; }
+
+.foto2 {
+  grid-area: foto2;
+  height: 550px;
+  display: inline-block; }
+  .foto2 img {
+    width: 100%;
+    height: 554px; }
+
+.foto3 {
+  grid-area: foto3;
+  height: 550px;
+  display: inline-block; }
+  .foto3 img {
+    width: 100%;
+    height: 554px; }
+
+.foto4 {
+  grid-area: foto4;
+  height: 550px;
+  display: inline-block; }
+  .foto4 img {
+    width: 100%;
+    height: 554px; }
+
+.maincontacto {
+  display: flex;
+  flex-direction: column; }
+  .maincontacto .portadacontacto {
+    background-image: url(../media/fotos/fondocontacto.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 35vh; }
+  .maincontacto .nosotros h1 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 3rem; }
+  .maincontacto .nosotros p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 1.5rem; }
+  .maincontacto .label {
+    font-family: 'Macondo', cursive;
+    font-size: 1.4rem; }
+  .maincontacto .inputs {
+    text-align: center;
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem; }
+  .maincontacto .inputsbtn {
+    width: 25%; }
+
+.mainmenu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "portadamenu portadamenu" "carta1 carta2" "carta3 carta3";
+  overflow: hidden; }
+
+.portadamenu {
+  grid-area: portadamenu; }
+  .portadamenu .indexmenu {
+    background-image: url(../media/fotos/fondomenu.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 40vh; }
+    .portadamenu .indexmenu h2 {
+      font-family: 'Macondo', cursive;
+      font-size: 5rem;
+      color: rgba(255, 255, 255, 0.836);
+      margin-bottom: 5px; }
+
+.carta1 {
+  grid-area: carta1;
+  display: flex;
+  justify-content: center;
+  margin: 50px; }
+  .carta1 h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    margin-bottom: 10px; }
+  .carta1 img {
+    width: 650px;
+    height: 850px; }
+
+.carta2 {
+  grid-area: carta2;
+  display: flex;
+  justify-content: center;
+  margin: 50px; }
+  .carta2 h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    margin-bottom: 10px; }
+  .carta2 img {
+    width: 650px;
+    height: 850px; }
+
+.carta3 {
+  grid-area: carta3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px; }
+  .carta3 h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    margin-bottom: 10px; }
+  .carta3 img {
+    width: 650px;
+    height: 850px; }
+
+.botoncartas {
+  color: red;
+  border: solid black 2px;
+  background-color: black;
+  font-size: 2.5rem;
+  font-family: 'Macondo', cursive; }
+
+.mainnosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "portadanosotros portadanosotros" "fotopagnosotros textopagnosotros";
+  overflow: hidden; }
+
+.portadanosotros {
+  grid-area: portadanosotros; }
+  .portadanosotros .indexnosotros {
+    background-image: url(../media/fotos/fondonosotros.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 40vh; }
+    .portadanosotros .indexnosotros h3 {
+      font-family: 'Macondo', cursive;
+      color: rgba(255, 255, 255, 0.836);
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+      font-size: 5rem; }
+
+.fotopagnosotros {
+  grid-area: fotopagnosotros; }
+  .fotopagnosotros img {
+    width: 500px;
+    height: 650px; }
+
+.textopagnosotros {
+  grid-area: textopagnosotros;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .textopagnosotros h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    margin: 10px;
+    font-size: 3rem; }
+  .textopagnosotros p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 1.5rem;
+    margin: 10px;
+    line-height: 1.5;
+    text-align: center; }
+
+.mainproductos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas: "portadaproductos portadaproductos" "descproducto1 fotoproducto1" "fotoproducto2 descproducto2" "descproducto3 fotoproducto3" "fotoproducto4 descproducto4" "descproducto5 fotoproducto5" "fotoproducto6 descproducto6";
+  overflow: hidden; }
+
+.portadaproductos {
+  grid-area: portadaproductos; }
+  .portadaproductos .indexproductos {
+    background-image: url(../media/fotos/fondomenu.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 40vh; }
+    .portadaproductos .indexproductos h3 {
+      font-family: 'Macondo', cursive;
+      color: rgba(255, 255, 255, 0.836);
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+      font-size: 5rem; }
+
+.descproducto1 {
+  display: flex;
+  grid-area: descproducto1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end; }
+  .descproducto1 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto1 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.fotoproducto1 {
+  display: flex;
+  grid-area: fotoproducto1;
+  justify-content: flex-start; }
+  .fotoproducto1 img {
+    width: 450px;
+    height: 450px; }
+
+.fotoproducto2 {
+  display: flex;
+  grid-area: fotoproducto2;
+  justify-content: flex-end; }
+  .fotoproducto2 img {
+    width: 450px;
+    height: 450px; }
+
+.descproducto2 {
+  display: flex;
+  grid-area: descproducto2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start; }
+  .descproducto2 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto2 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.descproducto3 {
+  display: flex;
+  grid-area: descproducto3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end; }
+  .descproducto3 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto3 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.fotoproducto3 {
+  display: flex;
+  grid-area: fotoproducto3;
+  justify-content: flex-start; }
+  .fotoproducto3 img {
+    width: 450px;
+    height: 450px; }
+
+.fotoproducto4 {
+  display: flex;
+  grid-area: fotoproducto4;
+  justify-content: flex-end; }
+  .fotoproducto4 img {
+    width: 450px;
+    height: 450px; }
+
+.descproducto4 {
+  display: flex;
+  grid-area: descproducto4;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start; }
+  .descproducto4 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto4 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.descproducto5 {
+  display: flex;
+  grid-area: descproducto5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end; }
+  .descproducto5 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto5 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.fotoproducto5 {
+  display: flex;
+  grid-area: fotoproducto5;
+  justify-content: flex-start; }
+  .fotoproducto5 img {
+    width: 450px;
+    height: 450px; }
+
+.fotoproducto6 {
+  display: flex;
+  grid-area: fotoproducto6;
+  justify-content: flex-end; }
+  .fotoproducto6 img {
+    width: 450px;
+    height: 450px; }
+
+.descproducto6 {
+  display: flex;
+  grid-area: descproducto6;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start; }
+  .descproducto6 h2 {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 3rem; }
+  .descproducto6 p {
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin: 10px;
+    line-height: 1.5; }
+
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footer .footerLogo {
+    margin-left: 5px; }
+    .footer .footerLogo .logo {
+      width: 150px;
+      height: 150px; }
+  .footer .disenofooter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px; }
+    .footer .disenofooter p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Rock Salt', cursive;
+      color: rgba(180, 180, 180, 0.473);
+      font-size: 1.2rem; }
+    .footer .disenofooter .redes {
+      display: flex;
+      justify-content: space-evenly; }
+      .footer .disenofooter .redes a {
+        margin: 10px;
+        text-decoration: none; }
+        .footer .disenofooter .redes a img {
+          margin: 0px;
+          width: 40px;
+          height: 40px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header" "main" "footer"; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
+/*medias querry*/
+@media screen and (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, auto);
+    grid-template-areas: "portada portada" "carusel carusel" "video1 video1" "video2 video2" "nosotros1 nosotros1" "nosotros2 nosotros2" "piezas piezas" "foto1 foto2" "foto3 foto4"; }
+  .listamenu ul {
+    margin: 0px; }
+  .listamenu ul li {
+    margin: 5px; }
+  .fotonosotros {
+    height: 50vh; }
+  .nosotros1 {
+    margin-top: 45px;
+    min-height: 50vh; }
+  .nosotros2 {
+    margin-top: 5px;
+    min-height: 45vh;
+    align-items: flex-start; }
+  .textonosotros {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .textonosotros h2 {
+    font-size: 2.5rem; }
+  .textonosotros p {
+    font-size: 1.3rem; }
+  .index {
+    min-height: 60vh; }
+  .index h2 {
+    font-size: 2rem; }
+  .index a {
+    font-size: 2rem; }
+  .index a:hover {
+    transform: scale(1.1, 1.1); }
+  .piezas {
+    background-image: url(../media/fotos/piezas768.jpg);
+    height: 300px;
+    background-size: cover; }
+  .piezas a {
+    font-size: 2.5rem;
+    font-family: 'Macondo', cursive;
+    color: rgba(255, 255, 255, 0.836);
+    text-decoration: none;
+    margin-left: 0px; }
+  .mainmenu {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "portadamenu" "carta1" "carta2" "carta3"; }
+  .indexmenu {
+    min-height: 30vh; }
+  .indexmenu h2 {
+    font-size: 3rem; }
+  .mainmenu h4 {
+    font-size: 2.5rem; }
+  .indexproductos {
+    min-height: 35vh; }
+  .indexproductos h3 {
+    font-size: 4rem; }
+  .mainproductos h2 {
+    font-size: 2.5rem; }
+  .mainproductos p {
+    font-size: 1rem; }
+  .mainnosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "portadanosotros" "fotopagnosotros" "textopagnosotros"; }
+  .indexnosotros {
+    min-height: 30vh; }
+  .indexnosotros h3 {
+    font-size: 4rem; }
+  .textopagnosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .textopagnosotros h2 {
+    font-size: 2.5rem; }
+  .textopagnosotros p {
+    font-size: 1rem;
+    margin: 10px;
+    line-height: 1.5;
+    text-align: center; }
+  .fotopagnosotros img {
+    margin-bottom: 0px;
+    width: 500px;
+    height: 650px; }
+  .portadacontacto {
+    min-height: 20vh; }
+  .formulario h1 {
+    font-size: 3.9rem; }
+  .formulario p {
+    font-size: 1.5rem; }
+  .formulario form {
+    width: 100%;
+    margin: 1.5rem 20%; }
+  .textocontacto {
+    margin-top: 30px;
+    margin-bottom: 35px; }
+  .inputs {
+    width: 50%;
+    font-size: 0.9rem; }
+  .inputsbtn {
+    width: 25%;
+    font-size: 0.9rem; }
+  .selectconsulta {
+    width: 50%;
+    font-size: 0.9rem; }
+  .form {
+    font-size: 1.9rem;
+    width: 90%; } }
+
+@media screen and (max-width: 400px) {
+  main {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas: "portada" "carusel" "video1" "video2" "nosotros1" "nosotros2" "piezas"; }
+  .listamenu ul {
+    margin: 0px;
+    flex-direction: column; }
+  header {
+    height: auto; }
+  .header {
+    height: auto; }
+  .listamenu {
+    height: auto; }
+  .listamenu ul li {
+    margin: 5px; }
+  .textonosotros h2 {
+    font-size: 1.5rem; }
+  .textonosotros p {
+    font-size: 1rem; }
+  .index {
+    min-height: 38vh; }
+  .index h2 {
+    margin-top: 20px;
+    font-size: 2rem; }
+  .index a {
+    font-size: 2rem;
+    margin-bottom: 20px; }
+  .piezas {
+    background-image: url(../media/fotos/piezas400.jpg);
+    height: 215px;
+    margin-bottom: 0px; }
+  .piezas a {
+    font-size: 1.5rem; }
+  .foto1 {
+    display: none; }
+  .foto2 {
+    display: none; }
+  .foto3 {
+    display: none; }
+  .foto4 {
+    display: none; }
+  .disenofooter {
+    margin-right: 0px; }
+  .footerLogo {
+    margin-left: 0px; }
+  .redes {
+    display: flex;
+    justify-content: space-evenly; }
+  .disenofooter p {
+    font-size: 0.9rem; }
+  .indexmenu {
+    min-height: 25vh; }
+  .indexmenu {
+    min-height: 15vh; }
+  .indexmenu h2 {
+    font-size: 2rem; }
+  .mainmenu h4 {
+    font-size: 2rem; }
+  .mainmenu h4 {
+    font-size: 1.5rem; }
+  .carta1 {
+    margin: 25px; }
+  .carta1 img {
+    width: 350px;
+    height: 450px; }
+  .carta2 {
+    margin: 25px; }
+  .carta2 img {
+    width: 350px;
+    height: 450px; }
+  .carta3 {
+    margin: 25px; }
+  .carta3 img {
+    width: 350px;
+    height: 450px; }
+  .botoncartas {
+    font-size: 1.2rem; }
+  .mainproductos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13, auto);
+    grid-template-areas: "portadaproductos" "descproducto1" "fotoproducto1" "descproducto2" "fotoproducto2"  "descproducto3"  "fotoproducto3" "descproducto4" "fotoproducto4"  "descproducto5" "fotoproducto5" "descproducto6" "fotoproducto6"; }
+  .descproducto1 {
+    align-items: center;
+    text-align: center; }
+  .descproducto2 {
+    align-items: center;
+    text-align: center; }
+  .descproducto3 {
+    align-items: center;
+    text-align: center; }
+  .descproducto4 {
+    align-items: center;
+    text-align: center; }
+  .descproducto5 {
+    align-items: center;
+    text-align: center; }
+  .descproducto6 {
+    align-items: center;
+    text-align: center; }
+  .fotoproducto1 {
+    justify-content: center; }
+  .fotoproducto2 {
+    justify-content: center; }
+  .fotoproducto3 {
+    justify-content: center; }
+  .fotoproducto4 {
+    justify-content: center; }
+  .fotoproducto5 {
+    justify-content: center; }
+  .fotoproducto6 {
+    justify-content: center; }
+  .indexproductos h3 {
+    font-size: 2.9rem; }
+  .mainproductos h2 {
+    font-size: 2rem; }
+  .mainproductos p {
+    font-size: 0.9rem; }
+  .mainproductos img {
+    width: 350px;
+    height: 350px; }
+  .indexproductos {
+    min-height: 20vh; }
+  .indexnosotros {
+    min-height: 20vh; }
+  .indexnosotros h3 {
+    font-size: 2.9rem; }
+  .textopagnosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .textopagnosotros h2 {
+    font-size: 2rem; }
+  .textopagnosotros p {
+    font-size: 0.9rem;
+    margin: 10px;
+    line-height: 1.5;
+    text-align: center; }
+  .fotopagnosotros img {
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
+    height: 500px; }
+  .portadacontacto {
+    display: none; }
+  .formulario h1 {
+    font-size: 2rem; }
+  .formulario p {
+    font-size: 1.2rem; }
+  .formulario form {
+    width: 100%;
+    margin: 1rem 20%; }
+  .inputs {
+    width: 50%;
+    font-size: 0.9rem; }
+  .textocontacto {
+    margin-top: 30px;
+    margin-bottom: 25px; }
+  .inputsbtn {
+    width: 25%;
+    font-size: 0.9rem; }
+  .selectconsulta {
+    width: 50%;
+    font-size: 0.9rem; }
+  .form {
+    font-size: 1.9rem;
+    width: 90%; } }

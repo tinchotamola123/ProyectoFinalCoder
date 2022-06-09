@@ -1,0 +1,155 @@
+main{
+    background-image: url(../media/fotos/fondoo.webp);
+    background-repeat: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas:
+    "portada portada portada portada"
+    "carusel carusel carusel carusel"
+    "video1 video1 video2 video2"
+    "nosotros1 nosotros1 nosotros2 nosotros2"
+    "piezas piezas piezas piezas"
+    "foto1 foto2 foto3 foto4";
+    overflow: hidden;
+}
+.portada{
+    grid-area: portada;
+    .index{
+        background-image: url(../media/fotos/fondoindex.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 100vh;
+        h2{
+            font-family: 'Macondo', cursive;
+            font-size: 80px;
+            color: rgba(255, 255, 255, 0.836);
+            margin-top: 60px;
+        }
+        a{
+            font-family: 'Macondo', cursive;
+            font-size: 70px;
+            color: rgba(255, 255, 255, 0.836);
+            margin-bottom: 40px;
+            text-decoration: none;
+            &:hover{
+                transform: scale(1.2,1.2);
+                color: rgb(138, 138, 136);
+            }
+        }
+        
+    }
+}
+.carusel{
+    grid-area: carusel;
+}
+.video1{
+    grid-area: video1;
+    video{
+        width: 100%;
+        height: 100%;
+    }
+}
+.video2{
+    grid-area: video2;
+    video{
+        width: 100%;
+        height: 100%;
+    }
+}
+.nosotros1{
+    grid-area: nosotros1;
+    .fotonosotros{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img:hover{
+            transform: scale(1.2,1.2);
+        }
+    }
+}
+.nosotros2{
+    grid-area: nosotros2;
+    .textonosotros{
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        h2{
+            font-size: 50px;
+            text-align: center;
+        }
+        p{
+            font-size: 25px;
+            padding-top: 25px;
+            text-align: center;
+        }
+    }
+}
+.piezas{
+    grid-area: piezas;
+    background-image: url(../media/fotos/piezas1440.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    .productos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        a{
+            font-size: 70px;
+            font-family: 'Macondo', cursive;
+            color: rgba(255, 255, 255, 0.836);
+            text-decoration: none;
+            margin-top: 45px;
+            &:hover{
+                transform: scale(1.1,1.1);
+                color: rgb(138, 138, 136);
+            }
+        }
+        
+    }
+}
+.foto1{
+    grid-area: foto1;
+    height: 550px;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 554px;
+    }
+}
+.foto2{
+    grid-area: foto2;
+    height: 550px;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 554px;
+    }
+}
+.foto3{
+    grid-area: foto3;
+    height: 550px;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 554px;
+    }
+}
+.foto4{
+    grid-area: foto4;
+    height: 550px;
+    display: inline-block;
+    img{
+        width: 100%;
+        height: 554px;
+    }
+}

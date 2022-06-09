@@ -1,0 +1,38 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .footerLogo{
+        margin-left: 5px;
+        .logo{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .disenofooter{
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+        p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: 'Rock Salt', cursive;
+            color: rgba(180, 180, 180, 0.473);
+            font-size: 1.2rem;
+        }
+        .redes{
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                margin: 10px;
+                text-decoration: none;
+                img{
+                    margin: 0px;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

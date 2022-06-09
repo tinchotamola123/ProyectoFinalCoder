@@ -1,0 +1,59 @@
+.mainnosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "portadanosotros portadanosotros"
+    "fotopagnosotros textopagnosotros";
+    overflow: hidden;
+}
+.portadanosotros{
+    grid-area: portadanosotros;
+    .indexnosotros{
+        background-image: url(../media/fotos/fondonosotros.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        min-height: 40vh;
+        h3{
+            font-family: 'Macondo', cursive;
+            color: rgba(255, 255, 255, 0.836);
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5px;
+            font-size: 5rem;
+        }
+    }
+}
+.fotopagnosotros{
+    grid-area: fotopagnosotros;
+    img{
+        width: 500px;
+        height: 650px;
+    }
+}
+.textopagnosotros{
+    grid-area: textopagnosotros;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        margin: 10px;
+        font-size: 3rem;
+    }
+    p{
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        font-size: 1.5rem;
+        margin: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
