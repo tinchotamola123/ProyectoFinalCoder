@@ -1,0 +1,1 @@
+Agregar explicacion de SEO
