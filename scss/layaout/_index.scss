@@ -76,6 +76,8 @@ main{
 }
 .nosotros2{
     grid-area: nosotros2;
+    display: flex;
+    align-items: center;
     .textonosotros{
         font-family: 'Macondo', cursive;
         color: rgba(255, 255, 255, 0.836);

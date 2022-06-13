@@ -1,3 +1,4 @@
+
 .mainmenu{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -31,36 +32,16 @@
 }
 .carta1{
     grid-area: carta1;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    h4{
-        text-align: center;
-        font-size: 3rem;
-        font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
-        margin-bottom: 10px;
-    }
+    @include cartas1y2;
     img{
-        width: 650px;
-        height: 850px;
+        @include cartas(650px,850px);
     }
 }
 .carta2{
     grid-area: carta2;
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    h4{
-        text-align: center;
-        font-size: 3rem;
-        font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
-        margin-bottom: 10px;
-    }
+    @include cartas1y2;
     img{
-        width: 650px;
-        height: 850px;
+        @include cartas(650px,850px);
     }
 }
 .carta3{
@@ -77,8 +58,7 @@
         margin-bottom: 10px;
     }
     img{
-        width: 650px;
-        height: 850px;
+        @include cartas(650px,850px);
     }
 }
 .botoncartas{

@@ -1,32 +1,440 @@
-@import "header";
-@import "index";
-@import "indexcontacto";
-@import "indexmenu";
-@import "indexnosotros";
-@import "indexproductos";
-@import "footer";
+@import "./base/reset";
+@import "./layaout/layout";
+@import "./abstract/mixins";
+@import "./abstract/extends";
+@import "./layaout/header";
+@import "./layaout/index";
+@import "./layaout/indexcontacto";
+@import "./layaout/indexmenu";
+@import "./layaout/indexnosotros";
+@import "./layaout/indexproductos";
+@import "./layaout/footer";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+@media screen and (max-width:768px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9,auto);
+        grid-template-areas:
+        "portada portada"
+        "carusel carusel"
+        "video1 video1"
+        "video2 video2"
+        "nosotros1 nosotros1"
+        "nosotros2 nosotros2"
+        "piezas piezas"
+        "foto1 foto2"
+        "foto3 foto4"
+        ;
+    }
+    .listamenu ul{
+        margin: 0px;
+
+    }
+    .listamenu ul li{
+        margin: 5px;
+    }
+    .fotonosotros{
+        height: 50vh;
+    }
+    .nosotros1{
+        margin-top: 45px;
+        min-height: 50vh;
+    }
+    .nosotros2{
+        margin-top: 5px;
+        min-height: 45vh;
+        align-items: flex-start;
+    }
+    .textonosotros{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .textonosotros h2{
+        font-size: 2.5rem;
+    }
+    .textonosotros p{
+        font-size: 1.3rem;
+    }
+    .index{
+        min-height: 60vh;
+    }
+    .index h2{
+        font-size: 2rem;
+    }
+    .index a{
+        font-size: 2rem;
+    }
+    .index a:hover{
+        transform: scale(1.1,1.1);
+    }
+    .piezas{
+        background-image: url(../media/fotos/piezas768.jpg);
+        height: 300px;
+        background-size: cover;
+    }
+    .piezas a{
+        font-size: 2.5rem;
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        text-decoration: none;
+        margin-left: 0px;
+    }
+    .mainmenu{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4,auto);
+        grid-template-areas: 
+        "portadamenu"
+        "carta1"
+        "carta2"
+        "carta3";
+    }
+    .indexmenu{
+        min-height: 30vh;
+    }
+    .indexmenu h2{
+        font-size: 3rem;
+    }
+    .mainmenu h4{
+        font-size: 2.5rem;
+    }
+    .indexproductos{
+        min-height: 35vh;
+    }
+    .indexproductos h3{
+        font-size: 4rem;
+    }
+    .mainproductos h2{
+        font-size: 2.5rem;
+    }
+    .mainproductos p{
+        font-size: 1rem;
+    }
+    .mainnosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        "portadanosotros"
+        "fotopagnosotros"
+        "textopagnosotros";
+    }
+    .indexnosotros{
+        min-height: 30vh;
+    }
+    .indexnosotros h3{
+        font-size: 4rem;
+    }
+    .textopagnosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textopagnosotros h2{
+        font-size: 2.5rem;
+    }
+    .textopagnosotros p{
+        font-size: 1rem;
+        margin: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .fotopagnosotros img{
+        margin-bottom: 0px;
+        width: 500px;
+        height: 650px;
+    }
+    .portadacontacto{
+        min-height: 20vh;
+    }
+    .formulario h1{
+        font-size: 3.9rem;
+    }
+    .formulario p{
+        font-size: 1.5rem;
+    }
+    .formulario form{
+        width: 100%;
+        margin: 1.5rem 20%;
+    }
+    .textocontacto{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .inputs{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .inputsbtn{
+        width: 25%;
+        font-size: 0.9rem;
+    }
+    .selectconsulta{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .form{
+        font-size: 1.9rem;
+        width: 90%;    
+    }
 }
-body{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer"
-    ;
-}
-header{
-    grid-area: header;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
+@media screen and (max-width:480px) {
+    main{
+        display: grid;
+        grid-auto-columns: auto;
+        grid-template-rows: repeat(7,auto);
+        grid-template-areas:
+        "portada"
+        "carusel"
+        "video1"
+        "video2"
+        "nosotros1"
+        "nosotros2"
+        "piezas"
+        ;
+    }
+    .listamenu ul{
+        margin: 0px;
+        flex-direction: column;
+    }
+    header{
+        height: auto;
+    }
+    .header{
+        height: auto;
+    }
+    .listamenu{
+        height: auto;
+    }
+    .listamenu ul li{
+        margin: 5px;
+    }
+    .textonosotros h2{
+        font-size: 1.5rem;
+    }
+    .textonosotros p{
+        font-size: 1rem;
+    }
+    .index{
+        min-height: 38vh;
+    }
+    .index h2{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    .index a{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .piezas{
+        background-image: url(../media/fotos/piezas400.jpg);
+        height: 215px;
+        margin-bottom: 0px;
+    }
+    .piezas a{
+        font-size: 1.5rem;
+    }
+    .foto1{
+        display: none;
+    }
+    .foto2{
+        display: none;
+    }
+    .foto3{
+        display: none;
+    }
+    .foto4{
+        display: none;
+    }
+    .disenofooter{
+        margin-right: 0px;
+    }
+    .footerLogo{
+        margin-left: 0px;
+    }
+    .redes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .disenofooter p{
+        font-size: 0.9rem;  
+    }
+    .indexmenu{
+        min-height: 25vh;
+    }
+    .indexmenu{
+        min-height: 15vh;
+    }
+    .indexmenu h2{
+        font-size: 2rem;
+    }
+    .mainmenu h4{
+        font-size: 2rem;
+    }
+    .mainmenu h4{
+        font-size: 1.5rem;
+    }
+    .carta1{
+        margin: 25px;
+    }
+    .carta1 img{
+        width: 350px;
+        height: 450px;
+    }
+    .carta2{
+        margin: 25px;
+    }
+    .carta2 img{
+        width: 350px;
+        height: 450px;
+    }
+    .carta3{
+        margin: 25px;
+    }
+    .carta3 img{
+        width: 350px;
+        height: 450px;
+    }
+    .botoncartas{
+        font-size: 1.2rem;
+    }
+    .mainproductos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(13,auto);
+        grid-template-areas: 
+        "portadaproductos"
+        "descproducto1"
+        "fotoproducto1"
+        "descproducto2"
+        "fotoproducto2" 
+        "descproducto3" 
+        "fotoproducto3"
+        "descproducto4"
+        "fotoproducto4" 
+        "descproducto5"
+        "fotoproducto5"
+        "descproducto6"
+        "fotoproducto6";
+    }
+    .descproducto1{
+        align-items: center;
+        text-align: center;
+    }
+    .descproducto2{
+        align-items: center;
+        text-align:center;
+    }
+    .descproducto3{
+        align-items: center;
+        text-align: center;
+    }
+    .descproducto4{
+        align-items: center;
+        text-align: center;
+    }
+    .descproducto5{
+        align-items: center;
+        text-align: center;
+    }
+    .descproducto6{
+        align-items: center;
+        text-align: center;
+    }
+    .fotoproducto1{
+        justify-content: center;
+    }
+    .fotoproducto2{
+        justify-content: center;
+    }
+    .fotoproducto3{
+        justify-content: center;
+    }
+    .fotoproducto4{
+        justify-content: center;
+    }
+    .fotoproducto5{
+        justify-content: center;
+    }
+    .fotoproducto6{
+        justify-content: center;
+    }
+    .indexproductos h3{
+        font-size: 2.9rem;
+    }
+    .mainproductos h2{
+        font-size: 2rem;
+    }
+    .mainproductos p{
+        font-size: 0.9rem;
+    }
+    .mainproductos img{
+        width: 350px;
+        height: 350px;
+    }
+    .indexproductos{
+        min-height: 20vh;
+    }
+    .indexnosotros{
+        min-height: 20vh;
+    }
+    .indexnosotros h3{
+        font-size: 2.9rem;
+    }
+    .textopagnosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textopagnosotros h2{
+        font-size: 2rem;
+    }
+    .textopagnosotros p{
+        font-size: 0.9rem;
+        margin: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .fotopagnosotros img{
+        margin-bottom: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 350px;
+        height: 500px;
+    }
+    .portadacontacto{
+        display: none;
+    }
+    .formulario h1{
+        font-size: 2rem;
+    }
+    .formulario p{
+        font-size: 1.2rem;
+    }
+    .formulario form{
+        width: 100%;
+        margin: 1rem 20%;
+    }
+    .inputs{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .textocontacto{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .inputsbtn{
+        width: 25%;
+        font-size: 0.9rem;
+    }
+    .selectconsulta{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    .form{
+        font-size: 1.9rem;
+        width: 90%;    
+    }
 }

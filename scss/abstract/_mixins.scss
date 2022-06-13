@@ -1,0 +1,44 @@
+@mixin cartas ($ancho , $alto){
+    width: $ancho;
+    height: $alto;
+}
+@mixin cartas1y2() {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    h4{
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        margin-bottom: 10px;
+    }
+}
+@mixin textoproductos() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        font-size: 3rem;
+    }
+    p{
+        font-family: 'Macondo', cursive;
+        color: rgba(255, 255, 255, 0.836);
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin: 10px;
+        line-height: 1.5;
+    }
+}
+@mixin fotoproductos() {
+    img{
+        width: 450px;
+        height: 450px;
+    }
+}
