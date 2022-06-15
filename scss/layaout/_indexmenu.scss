@@ -1,4 +1,3 @@
-
 .mainmenu{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,13 +19,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
-        min-height: 40vh;
+        justify-content: center;
+        min-height: 35vh;
         h2{
             font-family: 'Macondo', cursive;
-            font-size: 5rem;
+            font-size: 4.5rem;
             color: rgba(255, 255, 255, 0.836);
-            margin-bottom: 5px;
         }
     }
 }

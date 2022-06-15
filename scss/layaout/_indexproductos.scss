@@ -15,22 +15,21 @@
 .portadaproductos{
     grid-area: portadaproductos;
     .indexproductos{
-        background-image: url(../media/fotos/fondomenu.jpg);
+        background-image: url(../media/fotos/fondopiezas.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
-        min-height: 40vh;
+        justify-content: center;
+        min-height: 35vh;
         h3{
             font-family: 'Macondo', cursive;
             color: rgba(255, 255, 255, 0.836);
             display: flex;
             flex-direction: column;
-            margin-bottom: 5px;
-            font-size: 5rem;
+            font-size: 4.5rem;
         }
     }
 }

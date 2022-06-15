@@ -1,6 +1,4 @@
-main{
-    background-image: url(../media/fotos/fondoo.webp);
-    background-repeat: cover;
+.mainindex{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6,auto);
@@ -24,18 +22,18 @@ main{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        min-height: 100vh;
+        min-height: 95vh;
         h2{
             font-family: 'Macondo', cursive;
-            font-size: 80px;
+            font-size: 5.5rem;
             color: rgba(255, 255, 255, 0.836);
-            margin-top: 60px;
+            margin-top: 4rem;
         }
         a{
             font-family: 'Macondo', cursive;
-            font-size: 70px;
+            font-size: 5rem;
             color: rgba(255, 255, 255, 0.836);
-            margin-bottom: 40px;
+            margin-bottom: 3rem;
             text-decoration: none;
             &:hover{
                 transform: scale(1.2,1.2);
@@ -85,12 +83,12 @@ main{
         flex-direction: column;
         margin: 10px;
         h2{
-            font-size: 50px;
+            font-size: 3rem;
             text-align: center;
         }
         p{
-            font-size: 25px;
-            padding-top: 25px;
+            font-size: 1.5rem;
+            padding-top: 1.5rem;
             text-align: center;
         }
     }
@@ -106,11 +104,11 @@ main{
         flex-direction: row;
         justify-content: center;
         a{
-            font-size: 70px;
+            font-size: 4rem;
             font-family: 'Macondo', cursive;
             color: rgba(255, 255, 255, 0.836);
             text-decoration: none;
-            margin-top: 45px;
+            margin-top: 2rem;
             &:hover{
                 transform: scale(1.1,1.1);
                 color: rgb(138, 138, 136);
@@ -121,37 +119,17 @@ main{
 }
 .foto1{
     grid-area: foto1;
-    height: 550px;
-    display: inline-block;
-    img{
-        width: 100%;
-        height: 554px;
-    }
+    @include fotosindex;
 }
 .foto2{
     grid-area: foto2;
-    height: 550px;
-    display: inline-block;
-    img{
-        width: 100%;
-        height: 554px;
-    }
+    @include fotosindex;
 }
 .foto3{
     grid-area: foto3;
-    height: 550px;
-    display: inline-block;
-    img{
-        width: 100%;
-        height: 554px;
-    }
+    @include fotosindex;
 }
 .foto4{
     grid-area: foto4;
-    height: 550px;
-    display: inline-block;
-    img{
-        width: 100%;
-        height: 554px;
-    }
+    @include fotosindex;
 }
