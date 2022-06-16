@@ -97,7 +97,7 @@ header {
 .nosotros1 {
   grid-area: nosotros1; }
   .nosotros1 .fotonosotros {
-    height: 70vh;
+    padding: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -591,10 +591,10 @@ header {
     .portada .index a {
       font-size: 3.5rem;
       margin-bottom: 0.5rem; }
-  .nosotros1 {
-    grid-area: nosotros1; }
-    .nosotros1 .fotonosotros {
-      height: 50vh; }
+  .nosotros1 .fotonosotros {
+    padding: 0px 0px;
+    padding-top: 55px;
+    padding-bottom: 25px; }
   .nosotros2 {
     grid-area: nosotros2; }
     .nosotros2 .textonosotros h2 {
@@ -885,10 +885,10 @@ header {
     .portada .index a {
       font-size: 3rem;
       margin-bottom: 0.5rem; }
-  .nosotros1 {
-    grid-area: nosotros1; }
-    .nosotros1 .fotonosotros {
-      height: 50vh; }
+  .nosotros1 .fotonosotros {
+    padding: 0px 0px;
+    padding-top: 55px;
+    padding-bottom: 25px; }
   .nosotros2 {
     grid-area: nosotros2; }
     .nosotros2 .textonosotros h2 {
