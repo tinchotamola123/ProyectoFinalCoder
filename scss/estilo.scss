@@ -270,7 +270,7 @@
         }
     }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:400px) {
     /*Querry footer*/
     .footer{
         .disenofooter{
@@ -359,28 +359,28 @@
         grid-area: carta1;
         @include cartas1y2;
         h4{
-            font-size: 2.7rem;
+            font-size: 2.2rem;
         }
         img{
-            @include cartas(350px,450px);
+            @include cartas(320px,420px);
         }
     }
     .carta2{
         grid-area: carta2;
         @include cartas1y2;
         h4{
-            font-size: 2.7rem;
+            font-size: 2.2rem;
         }
         img{
-            @include cartas(350px,450px);
+            @include cartas(320px,420px);
         }
     }
     .carta3{
         h4{
-            font-size: 2.7rem;
+            font-size: 2.2rem;
         }
         img{
-            @include cartas(350px,450px);
+            @include cartas(320px,420px);
         }
     }
     .botoncartas{
@@ -405,10 +405,10 @@
         }
     }
     .fotoproducto1{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .fotoproducto2{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .descproducto2{
         @include textoproductos;
@@ -429,10 +429,10 @@
         }
     }
     .fotoproducto3{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .fotoproducto4{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .descproducto4{
         @include textoproductos;
@@ -453,10 +453,10 @@
         }
     }
     .fotoproducto5{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .fotoproducto6{
-        @include fotoproductos;
+        @include fotoproductosmobile;
     }
     .descproducto6{
         @include textoproductos;
@@ -478,8 +478,8 @@
     }
     .fotopagnosotros{
         img{
-            width: 400px;
-            height: 550px;
+            width: 320px;
+            height: 480px;
         }
     }
     .textopagnosotros{

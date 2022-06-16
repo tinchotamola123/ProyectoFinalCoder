@@ -868,7 +868,7 @@ header {
     font-size: 0.9rem;
     line-height: 1.5; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   /*Querry footer*/
   .footer .disenofooter p {
     text-align: end; }
@@ -925,10 +925,10 @@ header {
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta1 h4 {
-      font-size: 2.7rem; }
+      font-size: 2.2rem; }
     .carta1 img {
-      width: 350px;
-      height: 450px; }
+      width: 320px;
+      height: 420px; }
   .carta2 {
     grid-area: carta2;
     display: flex;
@@ -941,15 +941,15 @@ header {
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta2 h4 {
-      font-size: 2.7rem; }
+      font-size: 2.2rem; }
     .carta2 img {
-      width: 350px;
-      height: 450px; }
+      width: 320px;
+      height: 420px; }
   .carta3 h4 {
-    font-size: 2.7rem; }
+    font-size: 2.2rem; }
   .carta3 img {
-    width: 350px;
-    height: 450px; }
+    width: 320px;
+    height: 420px; }
   .botoncartas {
     font-size: 1.6rem; }
   /*Querry Productos*/
@@ -981,11 +981,11 @@ header {
     .descproducto1 p {
       font-size: 1.1rem; }
   .fotoproducto1 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .fotoproducto2 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .descproducto2 {
     display: flex;
     flex-direction: column;
@@ -1033,11 +1033,11 @@ header {
     .descproducto3 p {
       font-size: 1.1rem; }
   .fotoproducto3 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .fotoproducto4 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .descproducto4 {
     display: flex;
     flex-direction: column;
@@ -1085,11 +1085,11 @@ header {
     .descproducto5 p {
       font-size: 1.1rem; }
   .fotoproducto5 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .fotoproducto6 img {
-    width: 450px;
-    height: 450px; }
+    width: 350px;
+    height: 350px; }
   .descproducto6 {
     display: flex;
     flex-direction: column;
@@ -1119,8 +1119,8 @@ header {
     .portadanosotros .indexnosotros h3 {
       font-size: 3rem; }
   .fotopagnosotros img {
-    width: 400px;
-    height: 550px; }
+    width: 320px;
+    height: 480px; }
   .textopagnosotros {
     padding-bottom: 2rem; }
     .textopagnosotros h2 {

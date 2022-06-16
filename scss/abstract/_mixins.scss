@@ -42,6 +42,12 @@
         height: 450px;
     }
 }
+@mixin fotoproductosmobile() {
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
 @mixin fotosindex {
     height: 550px;
     display: inline-block;
