@@ -124,8 +124,8 @@ header {
 
 .piezas {
   grid-area: piezas;
-  background-image: url(../media/fotos/piezas1440.jpg);
-  height: 400px;
+  background-image: url(../media/fotos/piezas.jpg);
+  min-height: 50vh;
   background-size: 100% 100%;
   background-repeat: no-repeat; }
   .piezas .productos {
@@ -601,9 +601,11 @@ header {
       font-size: 2.5rem; }
     .nosotros2 .textonosotros p {
       font-size: 1.2rem; }
-  .piezas .productos a {
-    font-size: 3.5rem;
-    margin-top: 2rem; }
+  .piezas {
+    min-height: 40vh; }
+    .piezas .productos a {
+      font-size: 3.5rem;
+      margin-top: 2rem; }
   /*Querry menu*/
   .mainmenu {
     grid-template-columns: auto;
@@ -893,9 +895,11 @@ header {
       font-size: 2.5rem; }
     .nosotros2 .textonosotros p {
       font-size: 1.2rem; }
-  .piezas .productos a {
-    font-size: 3rem;
-    margin-top: 0.9rem; }
+  .piezas {
+    min-height: 30vh; }
+    .piezas .productos a {
+      font-size: 3rem;
+      margin-top: 0.9rem; }
   .foto1 {
     display: none; }
   .foto2 {

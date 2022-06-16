@@ -1,7 +1,6 @@
 @import "./base/reset";
 @import "./layaout/layout";
 @import "./abstract/mixins";
-@import "./abstract/extends";
 @import "./layaout/header";
 @import "./layaout/index";
 @import "./layaout/indexcontacto";
@@ -60,6 +59,7 @@
         }
     }
     .piezas{
+        min-height: 40vh;
         .productos{
             a{
                 font-size: 3.5rem;
@@ -324,6 +324,7 @@
         }
     }
     .piezas{
+        min-height: 30vh;
         .productos{
             a{
                 font-size: 3rem;
