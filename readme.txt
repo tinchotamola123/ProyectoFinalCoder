@@ -8,8 +8,8 @@ Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, EL MEJOR S
 
 
 Título de menu.html : Nuestros Menús | Full Sushi
-Descripción: 
-Agregué estos keywords: 
+Descripción:"Full Sushi. Conoce nuestras cartas y nuestras promos. Tablas clásicas, tablas combinadas y tablas para armarla como quieras.  
+Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, FULL SUSHI, CARTAS, PROMOS, TABLAS CLASICAS, TABLAS COMBINADAS" 
 
 
 
@@ -22,7 +22,7 @@ Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, NUESTRAS P
 
 
 Título de nosotros.html : Sobre Nosotros | Full Sushi
-Descripción:  
+Descripción: Full Sushi. Local de calidad premium ubicado en calle Juan B Justo de Mendoza, Argentina.
 Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, CIUDAD, 5TA SECCION, EL MEJOR SUSHI DE MENDOZA, PARQUE SAN MARTIN"
 
 
