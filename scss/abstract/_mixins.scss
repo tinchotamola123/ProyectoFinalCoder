@@ -10,7 +10,7 @@
         text-align: center;
         font-size: 3rem;
         font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
+        color: $colorfuente;
         margin-bottom: 10px;
     }
 }
@@ -20,7 +20,7 @@
     justify-content: center;
     h2{
         font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
+        color: $colorfuente;
         display: flex;
         flex-direction: column;
         margin: 10px;
@@ -28,7 +28,7 @@
     }
     p{
         font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
+        color: $colorfuente;
         display: flex;
         flex-direction: column;
         font-size: 1.2rem;

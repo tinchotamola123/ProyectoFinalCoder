@@ -11,12 +11,12 @@
     .nosotros{
         h1{
             font-family: 'Macondo', cursive;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
             font-size: 3rem;
         }
         p{
             font-family: 'Macondo', cursive;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
             font-size: 1.5rem;
         }
     }

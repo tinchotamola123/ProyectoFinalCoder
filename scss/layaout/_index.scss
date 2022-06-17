@@ -26,18 +26,18 @@
         h2{
             font-family: 'Macondo', cursive;
             font-size: 5.5rem;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
             margin-top: 4rem;
         }
         a{
             font-family: 'Macondo', cursive;
             font-size: 5rem;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
             margin-bottom: 3rem;
             text-decoration: none;
             &:hover{
                 transform: scale(1.2,1.2);
-                color: rgb(138, 138, 136);
+                color: $colorhover;
             }
         }
         
@@ -78,7 +78,7 @@
     align-items: center;
     .textonosotros{
         font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
+        color: $colorfuente;
         display: flex;
         flex-direction: column;
         margin: 10px;
@@ -106,12 +106,12 @@
         a{
             font-size: 4rem;
             font-family: 'Macondo', cursive;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
             text-decoration: none;
             margin-top: 2rem;
             &:hover{
                 transform: scale(1.1,1.1);
-                color: rgb(138, 138, 136);
+                color: $colorhover;
             }
         }
         

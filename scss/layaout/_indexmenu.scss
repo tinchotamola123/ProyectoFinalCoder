@@ -24,7 +24,7 @@
         h2{
             font-family: 'Macondo', cursive;
             font-size: 4.5rem;
-            color: rgba(255, 255, 255, 0.836);
+            color: $colorfuente;
         }
     }
 }
@@ -52,7 +52,7 @@
         text-align: center;
         font-size: 3rem;
         font-family: 'Macondo', cursive;
-        color: rgba(255, 255, 255, 0.836);
+        color: $colorfuente;
         margin-bottom: 10px;
     }
     img{
