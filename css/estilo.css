@@ -175,36 +175,54 @@ header {
     height: 554px; }
 
 .maincontacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "portadacontacto portadacontacto" "formulario mapa";
+  overflow: hidden; }
+
+.portadacontacto {
+  grid-area: portadacontacto;
+  background-image: url(../media/fotos/fondocontacto.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 35vh; }
+
+.nosotros h1 {
+  font-family: 'Macondo', cursive;
+  color: rgba(255, 255, 255, 0.836);
+  font-size: 4.5rem; }
+
+.nosotros p {
+  font-family: 'Macondo', cursive;
+  color: rgba(255, 255, 255, 0.836);
+  font-size: 2rem; }
+
+.formu {
+  grid-area: formulario; }
+
+.label {
+  font-family: 'Macondo', cursive;
+  font-size: 1.4rem; }
+
+.inputs {
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+  height: auto;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem; }
+
+.inputsbtn {
+  width: 25%; }
+
+.map-responsive {
   display: flex;
-  flex-direction: column; }
-  .maincontacto .portadacontacto {
-    background-image: url(../media/fotos/fondocontacto.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 35vh; }
-  .maincontacto .nosotros h1 {
-    font-family: 'Macondo', cursive;
-    color: rgba(255, 255, 255, 0.836);
-    font-size: 3rem; }
-  .maincontacto .nosotros p {
-    font-family: 'Macondo', cursive;
-    color: rgba(255, 255, 255, 0.836);
-    font-size: 1.5rem; }
-  .maincontacto .label {
-    font-family: 'Macondo', cursive;
-    font-size: 1.4rem; }
-  .maincontacto .inputs {
-    text-align: center;
-    margin: 10px;
-    width: 50%;
-    height: auto;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem; }
-  .maincontacto .inputsbtn {
-    width: 25%; }
+  justify-content: center;
+  align-items: center; }
 
 .mainmenu {
   display: grid;
@@ -234,7 +252,7 @@ header {
   grid-area: carta1;
   display: flex;
   justify-content: center;
-  margin: 50px; }
+  margin: 10px; }
   .carta1 h4 {
     text-align: center;
     font-size: 3rem;
@@ -242,14 +260,14 @@ header {
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta1 img {
-    width: 650px;
-    height: 850px; }
+    width: 550px;
+    height: 820px; }
 
 .carta2 {
   grid-area: carta2;
   display: flex;
   justify-content: center;
-  margin: 50px; }
+  margin: 10px; }
   .carta2 h4 {
     text-align: center;
     font-size: 3rem;
@@ -257,15 +275,15 @@ header {
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta2 img {
-    width: 650px;
-    height: 850px; }
+    width: 550px;
+    height: 820px; }
 
 .carta3 {
   grid-area: carta3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px; }
+  margin: 15px; }
   .carta3 h4 {
     text-align: center;
     font-size: 3rem;
@@ -273,8 +291,8 @@ header {
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta3 img {
-    width: 650px;
-    height: 850px; }
+    width: 550px;
+    height: 820px; }
 
 .botoncartas {
   color: red;
@@ -619,7 +637,7 @@ header {
     grid-area: carta1;
     display: flex;
     justify-content: center;
-    margin: 50px; }
+    margin: 10px; }
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
@@ -635,7 +653,7 @@ header {
     grid-area: carta2;
     display: flex;
     justify-content: center;
-    margin: 50px; }
+    margin: 10px; }
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
@@ -856,15 +874,36 @@ header {
     .textopagnosotros p {
       font-size: 1.5rem; }
   /*Querry Contacto*/
-  .maincontacto .portadacontacto {
+  .maincontacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "portadacontacto" "formulario" "mapa";
+    overflow: hidden;
+    justify-content: center; }
+  .portadacontacto {
     min-height: 25vh; }
-  .maincontacto .nosotros h1 {
-    font-size: 2.7rem; }
-  .maincontacto .nosotros p {
+  .nosotros h1 {
+    font-size: 4rem; }
+  .nosotros p {
+    font-size: 1.5rem; }
+  .map-responsive {
+    grid-area: mapa;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0; }
+  .map-responsive iframe {
+    margin-bottom: 50px;
+    left: 0;
+    right: 15px;
+    top: 25%;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  .label {
     font-size: 1.2rem; }
-  .maincontacto .label {
-    font-size: 1.2rem; }
-  .maincontacto .inputs {
+  .inputs {
     font-size: 0.9rem;
     line-height: 1.5; } }
 
@@ -917,7 +956,7 @@ header {
     grid-area: carta1;
     display: flex;
     justify-content: center;
-    margin: 50px; }
+    margin: 10px; }
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
@@ -933,7 +972,7 @@ header {
     grid-area: carta2;
     display: flex;
     justify-content: center;
-    margin: 50px; }
+    margin: 10px; }
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
@@ -1128,14 +1167,29 @@ header {
     .textopagnosotros p {
       font-size: 1.2rem; }
   /*Querry Contacto*/
-  .maincontacto .portadacontacto {
+  .maincontacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "portadacontacto" "formulario" "mapa";
+    overflow: hidden; }
+  .portadacontacto {
     display: none; }
-  .maincontacto .nosotros h1 {
-    font-size: 2.6rem; }
-  .maincontacto .nosotros p {
+  .map-responsive {
+    grid-area: mapa;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0; }
+  .map-responsive iframe {
+    left: 0;
+    right: 15px;
+    top: 25%;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  .label {
     font-size: 1.2rem; }
-  .maincontacto .label {
-    font-size: 1.2rem; }
-  .maincontacto .inputs {
+  .inputs {
     font-size: 0.9rem;
     line-height: 1.5; } }

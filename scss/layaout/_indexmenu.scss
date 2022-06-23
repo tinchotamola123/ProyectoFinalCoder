@@ -32,14 +32,14 @@
     grid-area: carta1;
     @include cartas1y2;
     img{
-        @include cartas(650px,850px);
+        @include cartas(550px,820px);
     }
 }
 .carta2{
     grid-area: carta2;
     @include cartas1y2;
     img{
-        @include cartas(650px,850px);
+        @include cartas(550px,820px);
     }
 }
 .carta3{
@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    margin: 15px;
     h4{
         text-align: center;
         font-size: 3rem;
@@ -56,7 +56,7 @@
         margin-bottom: 10px;
     }
     img{
-        @include cartas(650px,850px);
+        @include cartas(550px,820px);
     }
 }
 .botoncartas{

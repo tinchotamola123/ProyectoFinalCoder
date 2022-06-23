@@ -1,7 +1,15 @@
 .maincontacto{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas:
+    "portadacontacto portadacontacto"
+    "formulario mapa"
+    ;
+    overflow: hidden;
+}
     .portadacontacto{
+        grid-area: portadacontacto;
         background-image: url(../media/fotos/fondocontacto.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -12,13 +20,17 @@
         h1{
             font-family: 'Macondo', cursive;
             color: $colorfuente;
-            font-size: 3rem;
+            font-size: 4.5rem;
         }
         p{
             font-family: 'Macondo', cursive;
             color: $colorfuente;
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
+    }
+    .formu{
+        grid-area: formulario;
+    
     }
     .label{
         font-family: 'Macondo', cursive;
@@ -37,4 +49,9 @@
     .inputsbtn{
         width: 25%;
     }
-}
+    .map-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+

@@ -251,24 +251,50 @@
     }
     /*Querry Contacto*/
     .maincontacto{
-        .portadacontacto{
-            min-height: 25vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "portadacontacto"
+        "formulario"
+        "mapa"
+        ;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .portadacontacto{
+        min-height: 25vh;
+    }
+    .nosotros{
+        h1{
+            font-size: 4rem;
         }
-        .nosotros{
-            h1{
-                font-size: 2.7rem;
-            }
-            p{
-                font-size: 1.2rem;
-            }
+        p{
+            font-size: 1.5rem;
         }
-        .label{
-            font-size: 1.2rem;
-        }
-        .inputs{
-            font-size: 0.9rem;
-            line-height: 1.5;
-        }
+    }
+    .map-responsive{
+        grid-area: mapa;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        margin-bottom: 50px;
+        left:0;
+        right: 15px;
+        top:25%;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .label{
+        font-size: 1.2rem;
+    }
+    .inputs{
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 }
 @media screen and (max-width:400px) {
@@ -494,28 +520,39 @@
     }
     /*Querry Contacto*/
     .maincontacto{
-        .portadacontacto{
-            display: none;
-        }
-        .nosotros{
-            h1{
-                font-size: 2.6rem;
-            }
-            p{
-                font-size: 1.2rem;
-            }
-        }
-        .label{
-            font-size: 1.2rem;
-        }
-        .inputs{
-            font-size: 0.9rem;
-            line-height: 1.5;
-        }
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "portadacontacto"
+        "formulario"
+        "mapa"
+        ;
+        overflow: hidden;
+    }
+    .portadacontacto{
+        display: none;
+    }
+    .map-responsive{
+        grid-area: mapa;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        right: 15px;
+        top:25%;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    .label{
+        font-size: 1.2rem;
+    }
+    .inputs{
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 }
-
-    
-    
-
-
