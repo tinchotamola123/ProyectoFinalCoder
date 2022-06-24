@@ -977,8 +977,8 @@ header {
     .carta1 h4 {
       font-size: 2.2rem; }
     .carta1 img {
-      width: 320px;
-      height: 420px; }
+      width: 450px;
+      height: 550px; }
   .carta2 {
     grid-area: carta2;
     display: flex;
@@ -993,13 +993,13 @@ header {
     .carta2 h4 {
       font-size: 2.2rem; }
     .carta2 img {
-      width: 320px;
-      height: 420px; }
+      width: 450px;
+      height: 550px; }
   .carta3 h4 {
     font-size: 2.2rem; }
   .carta3 img {
-    width: 320px;
-    height: 420px; }
+    width: 450px;
+    height: 550px; }
   .botoncartas {
     font-size: 1.6rem; } }
 
@@ -1062,8 +1062,8 @@ header {
     .carta1 h4 {
       font-size: 2.2rem; }
     .carta1 img {
-      width: 320px;
-      height: 420px; }
+      width: 380px;
+      height: 580px; }
   .carta2 {
     grid-area: carta2;
     display: flex;
@@ -1078,13 +1078,13 @@ header {
     .carta2 h4 {
       font-size: 2.2rem; }
     .carta2 img {
-      width: 320px;
-      height: 420px; }
+      width: 380px;
+      height: 580px; }
   .carta3 h4 {
     font-size: 2.2rem; }
   .carta3 img {
-    width: 320px;
-    height: 420px; }
+    width: 380px;
+    height: 580px; }
   .botoncartas {
     font-size: 1.6rem; }
   /*Querry Productos*/
