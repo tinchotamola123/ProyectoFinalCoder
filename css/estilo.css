@@ -41,7 +41,7 @@ header {
           color: rgba(180, 180, 180, 0.473);
           text-decoration: none;
           font-size: 1.2rem;
-          font-family: 'Rock Salt', cursive; }
+          font-family: 'Architects Daughter', cursive; }
           header .listamenu ul li a:hover {
             color: white; }
 
@@ -65,12 +65,12 @@ header {
     justify-content: space-between;
     min-height: 95vh; }
     .portada .index h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       font-size: 5.5rem;
       color: rgba(255, 255, 255, 0.836);
       margin-top: 4rem; }
     .portada .index a {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       font-size: 5rem;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 3rem;
@@ -109,7 +109,7 @@ header {
   display: flex;
   align-items: center; }
   .nosotros2 .textonosotros {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ header {
     justify-content: center; }
     .piezas .productos a {
       font-size: 4rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       text-decoration: none;
       margin-top: 2rem; }
@@ -190,12 +190,12 @@ header {
   min-height: 35vh; }
 
 .nosotros h1 {
-  font-family: 'Macondo', cursive;
+  font-family: 'Architects Daughter', cursive;
   color: rgba(255, 255, 255, 0.836);
   font-size: 4.5rem; }
 
 .nosotros p {
-  font-family: 'Macondo', cursive;
+  font-family: 'Architects Daughter', cursive;
   color: rgba(255, 255, 255, 0.836);
   font-size: 2rem; }
 
@@ -203,7 +203,7 @@ header {
   grid-area: formulario; }
 
 .label {
-  font-family: 'Macondo', cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 1.4rem; }
 
 .inputs {
@@ -244,7 +244,7 @@ header {
     justify-content: center;
     min-height: 35vh; }
     .portadamenu .indexmenu h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       font-size: 4.5rem;
       color: rgba(255, 255, 255, 0.836); }
 
@@ -256,7 +256,7 @@ header {
   .carta1 h4 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta1 img {
@@ -271,7 +271,7 @@ header {
   .carta2 h4 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta2 img {
@@ -287,7 +287,7 @@ header {
   .carta3 h4 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     margin-bottom: 10px; }
   .carta3 img {
@@ -299,7 +299,7 @@ header {
   border: solid black 2px;
   background-color: black;
   font-size: 2.5rem;
-  font-family: 'Macondo', cursive; }
+  font-family: 'Architects Daughter', cursive; }
 
 .mainnosotros {
   display: grid;
@@ -321,7 +321,7 @@ header {
     justify-content: center;
     min-height: 35vh; }
     .portadanosotros .indexnosotros h3 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -340,12 +340,12 @@ header {
   align-items: center;
   justify-content: center; }
   .textopagnosotros h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     margin: 10px;
     font-size: 3rem; }
   .textopagnosotros p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     font-size: 1.5rem;
     margin: 10px;
@@ -372,7 +372,7 @@ header {
     justify-content: center;
     min-height: 35vh; }
     .portadaproductos .indexproductos h3 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -386,14 +386,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto1 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto1 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -425,14 +425,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto2 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto2 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -448,14 +448,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto3 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto3 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -487,14 +487,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto4 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto4 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -510,14 +510,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto5 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto5 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -549,14 +549,14 @@ header {
   flex-direction: column;
   justify-content: center; }
   .descproducto6 h2 {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 3rem; }
   .descproducto6 p {
-    font-family: 'Macondo', cursive;
+    font-family: 'Architects Daughter', cursive;
     color: rgba(255, 255, 255, 0.836);
     display: flex;
     flex-direction: column;
@@ -581,7 +581,7 @@ header {
     .footer .disenofooter p {
       margin-top: 20px;
       margin-bottom: 20px;
-      font-family: 'Rock Salt', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(180, 180, 180, 0.473);
       font-size: 1.2rem; }
     .footer .disenofooter .redes {
@@ -648,7 +648,7 @@ header {
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta1 h4 {
@@ -664,7 +664,7 @@ header {
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta2 h4 {
@@ -726,7 +726,7 @@ header {
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta1 h4 {
@@ -742,7 +742,7 @@ header {
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta2 h4 {
@@ -774,14 +774,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto1 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto1 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -810,14 +810,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto2 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto2 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -832,14 +832,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto3 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto3 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -868,14 +868,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto4 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto4 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -890,14 +890,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto5 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto5 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -926,14 +926,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto6 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto6 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1006,7 +1006,7 @@ header {
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta1 h4 {
@@ -1022,7 +1022,7 @@ header {
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta2 h4 {
@@ -1091,7 +1091,7 @@ header {
     .carta1 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta1 h4 {
@@ -1107,7 +1107,7 @@ header {
     .carta2 h4 {
       text-align: center;
       font-size: 3rem;
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       margin-bottom: 10px; }
     .carta2 h4 {
@@ -1132,14 +1132,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto1 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto1 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1161,14 +1161,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto2 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto2 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1184,14 +1184,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto3 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto3 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1213,14 +1213,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto4 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto4 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1236,14 +1236,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto5 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto5 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
@@ -1265,14 +1265,14 @@ header {
     flex-direction: column;
     justify-content: center; }
     .descproducto6 h2 {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
       margin: 10px;
       font-size: 3rem; }
     .descproducto6 p {
-      font-family: 'Macondo', cursive;
+      font-family: 'Architects Daughter', cursive;
       color: rgba(255, 255, 255, 0.836);
       display: flex;
       flex-direction: column;
