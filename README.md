@@ -1,9 +1,14 @@
+# Full Sushi
+
+Página Full Sushi 
+
+https://fullsushi.000webhostapp.com/
+
 Explicación de SEO.
 
 Título de index.html : Full Sushi | Restaurant de Sushi Premium
 Descripción: "Full Sushi. Local de sushi ubicado en Mendoza, con piezas premium e ingredientes de la mejor calidad"
 Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, EL MEJOR SUSHI DE MENDOZA"
-
 
 
 
@@ -13,11 +18,9 @@ Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, FULL SUSHI
 
 
 
-
 Título de productos.html : Nuestros Productos | Full Sushi
 Descripción: "Full Sushi. Conoce nuestras piezas: Clásicas, Cocidas, Hot Rolls, Sin arroz, Niguiri y Geisha."
 Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, NUESTRAS PIEZAS, CLÁSICOS, COCIDOS, HOT ROLLS, SIN ARROZ, NIGUIRI, GEISHA"
-
 
 
 
@@ -27,7 +30,16 @@ Agregué estos keywords: "SUSHI, LOCAL SUSHI, SUSHI PREMIUM, MENDOZA, CIUDAD, 5T
 
 
 
-
 Título de contacto.html: Contáctanos | Full Sushi
 Descripción: "Full Sushi. Contactate con nosotros vía email, dejanos tu consulta y nos comunicamos a la brevedad"
 Agregué estos keywords: "FULL SUSHI, CONTACTO, MENDOZA, EMAIL, TELÉFONO, EL MEJOR SUSHI DE MENDOZA"
+
+![](/s1.jpeg)
+
+![](/s2.jpeg)
+
+![](/s3.jpeg)
+
+![](/s4.jpeg)
+
+By Martin Tamola
